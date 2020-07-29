@@ -1,0 +1,80 @@
+body{
+    background-color: magenta;
+    color: black;
+}
+
+.titulo{
+    font-size: 60px;
+    background-color: aqua;
+    font-family: serif;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border: 12px double gold;
+    padding: 15px;
+}
+
+a{
+    color:white ;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* SUBCLASE O SUBSELECTOR  :hover= flotar encima */
+
+a:hover{
+    color: blue;
+    font-size: 20px;
+}
+
+table{
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid cyan;
+    border-radius: 20px;
+}
+
+th, td{
+    border: 2px dotted cyan;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+#ta{
+    width: 100%;
+    background-color: slateblue;
+    color: black;
+    border: 2.5px dashed yellow;
+    border-radius: 15px;
+}
+
+th, td{
+    border: 2px dashed black;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+table{
+    width: 60%;
+    margin-left: 20%;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid cyan;
+    border-radius: 20px;
+}
+
+th, td{
+    border: 2px dashed black;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+

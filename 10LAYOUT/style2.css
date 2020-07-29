@@ -1,0 +1,131 @@
+body{
+    background-color: lightpink;
+}
+
+header{
+    /* limpiar */
+    /* border: 2px solid blue; */
+    width: 100%;
+    /* limpiar */
+    /* height: 10vh; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 100px;
+}
+
+h1{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    letter-spacing: 20px;
+    border-bottom: 2px dashed white;
+}
+
+nav{
+    /* limpiar */
+    /* border: 2px solid purple; */
+    width: 100%;
+    /* limpiar */
+    /* height: 10vh; */
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px dashed white;
+}
+
+a:hover{
+    color: burlywood;
+    border-bottom: 2px dashed burlywood;
+    font-size: 31px;
+    text-shadow: 2px 2px 2px black;
+}
+
+main{
+    /* limpiar */
+    border: 2px solid yellow;
+    width: 100%;
+    /* limpiar */
+    /* heigth: 70vh; */
+    height: auto;
+    display: flex;
+}
+
+.div1{
+    /* border: 2px dotted black; */
+    width: 40vw;
+    background-color: palevioletred;
+}
+
+aside{
+    /* limpiar */
+    /* border: 2px solid green; */
+    /* me ayudó a dibujar la caja de primer momento */
+    /* width: 40%; */
+    /* limpiar */
+    height: 75vh;
+}
+
+.caja{
+    width: 60%;
+    border-top-right-radius: 20px;
+    border-bottom: 2px dashed white;
+    background-color: lightskyblue;
+    height: 5vh;
+    /* BARRITA A LADO DEL TITULO */
+    border-left: 5px solid white;
+}
+
+h2{
+    margin-left: 15px;
+    color: white;
+
+}
+
+.div2{
+    border: 2px dotted lawngreen;
+    width: 60vw;
+
+}
+
+section{
+    /* limpiar */
+    border: 2px solid fuchsia;
+    /* width: 60%; */
+    /* limpiar */
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.producto{
+    border: 2px solid red;
+}
+
+/* HERENCIA */
+.producto img{
+    width: 30%;
+}
+
+footer{
+    /* limpiar */
+    border: 2px solid orangered;
+    width: 100%;
+    /* limpiar */
+    height: 10vh;
+}
+
+
+

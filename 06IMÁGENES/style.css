@@ -1,0 +1,21 @@
+body{
+    background-color: yellow;
+}
+
+.titulo{
+    background-color: palegreen;
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border: 12px dashed black;
+    padding: 10px;
+}
+
+img{
+    width: 30%;
+    margin-left: 35%;
+    border: 5px dashed fuchsia;
+    border-radius: 10%;
+}

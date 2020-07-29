@@ -1,0 +1,23 @@
+body{
+    /* nombre del color */
+    background-color: red;
+    /* RGB  RED GREN BLUE   BITS */
+    /* 1 bit es un conjunto de 8 números binarios  */
+    background-color:rgb(105, 136, 104);
+    /* RGBA */
+    /* colores 0 - 255 */
+    background-color: rgba(100, 20, 10, .5);
+    /*  hexadecimal  16 bits*/
+    /* ausencia de color */
+    /* o al f */
+    background-color:#000000;
+    background-color:#ff0000;
+
+    /* hsl */
+    /* H = HUE = MATIZ = COLOR  DE 0 - 255 */
+    /* S = SATURATION = SATURACION = COMBINADO DE NEGRO BLANCO 0% - 100% */
+    /* L = lightness = luminosidad = opacidad  de claro a opaco 0% - 100%*/
+    background-color: hsl(255, 50%, 50%);
+    background-color: hsla(255, 50%, 50%, .5);
+    
+}

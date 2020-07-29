@@ -1,0 +1,185 @@
+/* body{
+    background-image: url(https://i.pinimg.com/236x/a3/0a/7f/a30a7f018a246dd66ab340f0fae29b64.jpg);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;  
+} */
+
+.titulo{
+    background-color: lawngreen;
+    color: black;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    border: deeppink double 15px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+a:hover{
+    color: red;
+    font-size: 23px;
+}
+
+a{
+    color: aqua;
+}
+
+/* 1) float  */
+.caja{
+    /* border: 2px solid cyan; */
+    text-align: center;
+    width: 25%;
+/* flota a la izquierda del utlimo elemento */
+    float: left;
+    height: 330px;
+    margin-left: 6%;
+    font-size: 15px;
+    color: rgb(13, 13, 150) ;  
+    background-color: yellow;
+    border-radius: 70%;  
+    margin-bottom: 6%;  
+}
+
+.caja a{
+    color: red;
+   
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+p{
+    font-size: 18px;
+}
+
+table{
+    background-color: yellow;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 30px;
+    border: 10px dashed blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+td{
+    border: 3px dotted blue; 
+    border-radius: 20px;
+}
+td p{
+    font-size: 25px;
+    /* GROSOR DE LETRA */
+    font-weight: bold;
+}
+
+/* FLEXBOX */
+
+hr{
+    /* BORRAR LO ANTERIOR */
+    clear: both;
+}
+
+.container{
+    border: 5px dotted fuchsia;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    border: 2px double aqua;
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+    color:black;
+    /* GROSOR DE LETRAS */
+    font-weight: 35;
+}
+
+.barra{
+    background-color: rgb(219, 69, 219);
+    height: 10vh;
+    font-size: 30px;
+    color: black;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* DESAPARECER VIÑETAS */
+.viñetas{
+    list-style: none;
+    /* ESTÁ DE MÁS */
+    /* flex-direction: row; */
+    /* YA PONE EL ELEMENTO EN HORIZONTAL */
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid red;
+}
+
+.logo{
+    border: 2px solid red;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+}
+
+.icons{
+    border: 2px solid lawngreen;
+    display: flex;
+}
+
+.icons p{
+    margin-left: 15px;
+
+}
+
+/* FORMA EN LA QUE ENTENDÍ */
+.contenedor{
+    border: 2px solid red;
+   display: flex;
+   justify-content: space-around;
+}
+
+.azul{
+    border: 2px solid blue;
+    height: 5vh;
+    margin: 10px;
+    width: 20%;
+    text-align: center;
+}
+.azul img{
+    width: 100px;
+    height: 50px;
+}
+
+.verde{
+    border: 2px solid green;
+    height: 5vh;
+    margin: 10px;
+    width: 60%;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.amarilla{
+    border: 2px solid yellow;
+    height: 5vh;
+    margin: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+

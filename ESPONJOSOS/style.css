@@ -1,0 +1,83 @@
+body{
+    background-image: url(https://image.freepik.com/foto-gratis/hermoso-cupcake-navideno-crema_169016-1609.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    color: orangered ;
+    text-shadow: 2px 2px white;
+
+
+}
+
+.titulo{
+   
+    font-size: 80px;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+
+.des{
+    color: blue;
+    text-shadow: none;
+    font-size: 30px;
+    text-align: center;
+    background-color: thistle;
+}
+
+#cup{
+    text-shadow: none;
+    background-color: lawngreen;
+    color: black;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    border: 10px dotted white;
+}
+
+li{
+    background-color: paleturquoise;
+    color: black;
+    text-shadow: none;
+    width: 20%;
+    text-align: center;
+}
+
+img{
+    width: 20%;   
+}
+
+a:hover{
+    text-shadow: 3px 3px lawngreen ;
+    color: black;
+    font-size: 30px;
+}
+
+table{
+    width: 80%;
+    margin-left: 10%;
+    background-color: palegreen;
+    border-radius: 15px;
+    border: 10px double green;
+}
+
+th{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: none;
+    text-align: center;
+    color: mediumvioletred;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+td{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: none;
+    text-align: center ;
+    color: black;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+

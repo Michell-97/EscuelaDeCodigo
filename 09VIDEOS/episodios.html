@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(https://pm1.narvii.com/6729/a2504202ec190f9e105389ac7090ecfd79d8893dv2_hq.jpg);
+            font-family: 'Bangers', cursive;
+        }
+
+        .caja-hiper{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 1cm;
+            margin-bottom: 1cm;
+        }
+
+        a:hover {
+            color: chartreuse;
+            font-size: 50px;
+            text-shadow: 2px 2px blue;
+        }
+        a{
+            color: red;
+            font-size: 40px;
+            text-shadow: 2px 2px cyan; 
+        }
+
+        .caja {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #descripcion {
+            width: 30%;
+            padding: 10px;
+            background-color: rgba(67, 148, 241, 0.877);
+            text-align: center;
+            border: 10px double white;
+            border-radius: 30px;
+            font-size: 1pc;
+        }
+
+        h1{
+            letter-spacing: 3px;
+            text-shadow: 2px 2px yellow;
+        }
+
+        img {
+            width: 3in;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        
+    </style>
+    <title>EPISODIOS</title>
+</head>
+
+<body>
+    <!-- CAJA PARA LOS HIPERVÍNCULOS DE REFERENCIA -->
+    <div class="caja-hiper">
+        <a href="practica.html">PRINCIPAL</a>
+        <a href="peliculas.html">Películas</a>
+    </div>
+    <br>
+     <!-- PRIMERA CAJA QUE CONTIENE LA DESCRIPCIÓN DE 3 ANIMES -->
+    <div class="caja">
+        <!-- CAJA 1 CON LA DESCRIPCION, IMÁGEN Y LISTA DESPLEGABLE DE LOS CAPITULOS DEL ANIME 1 -->
+        <div id="descripcion">
+            <h1>ANOTHER</h1>
+            <img src="img/otro.jpg" alt="otro">
+            <p>La historia se centra en una clase maldita que a todos los estudiantes los lleva a la muerte.
+                Hace 26 años una alumna llamada Misaki murió y sus compañeros con tal de no olvidarla decidieron actuar
+                como si ella siguiera asistiendo a clases.
+            </p>
+            <!-- LISTA DESPLEGABLE PARA SELECCIONAR UN EPISODIO -->
+            <select name="episodios" id="epi">
+                <!-- <OPCIÓN VALUE="">SELECCIONA...OPTION -->
+                    <option value="1">Ep.1 Bosquejo</option>
+                    <option value="2">Ep.2 Anteproyecto</option>
+                    <option value="3">Ep.3 Grupo de huesos</option>
+            </select>
+           
+        </div>
+
+        <div id="descripcion">
+            <h1>DOMESTIC GIRLFRIEND</h1>
+            <img src="https://ramenparados.com/wp-content/uploads/2019/02/domestic-girlfriend-destacado-1000x600.jpg"
+                alt="girl">
+            <p>Natsuo es un estudiante de instituto que sufre por amor al estar enamorado de su profesora.
+                En el mismo instituo estudia una chica llamada Rui la cual se enamoró de su profesor. Estos dos 
+                chicos al ver que su amor es imposible, deciden tener una relación amorosa" con tal de desahogar
+                su dolor.
+            </p>
+            <select name="episodios" id="epi">
+                <!-- <OPCIÓN VALUE="">SELECCIONA...OPTION -->
+                    <option value="1">Ep.1 ¿Lo harías conmigo?</option>
+                    <option value="2">Ep.2 ¿Lo hicimos?</option>
+                    <option value="3">Ep.3 Entonces, ¿es verdad?</option>
+            </select>       
+        </div>
+
+        <div id="descripcion">
+            <h1>CITRUS</h1>
+            <img src="https://i.pinimg.com/236x/6c/65/35/6c6535c232a77c2ab64914f14c359e50.jpg"
+                alt="citrus">
+            <p>Yuzu se transfiere a una nueva escuela nueva cuando su madre se casa de nuevo. El primer día
+                de clases conoce a Mei la presidenta del consejo estudiantil y la hija del esposo de su madre.
+                Yuzu tiene el deseo de encontrar novio pero todo se vuelve complicado al empezar a sentir atracción 
+                hacia su hermanastra y visceversa.
+            </p>
+            <select name="episodios" id="epi">
+                <!-- <OPCIÓN VALUE="">SELECCIONA...OPTION -->
+                    <option value="1">Ep.1 ¿Una aventura?</option>
+                    <option value="2">Ep.2 ¿Tu primer amor?</option>
+                    <option value="3">Ep.3 ¿Amor fraternal?</option>
+            </select>       
+        </div>
+    </div>
+    <!-- SEGUNDA CAJA  QUE CONTIENE LAS DESCRIPCIÓN DE 3 ANIMES-->
+    <div class="caja">
+        <div id="descripcion">
+            <h1>KAGUYA-SAMA: LOVE IS WAR</h1>
+            <img src="https://2.bp.blogspot.com/-MT-a3nRkZ3U/XIb7mtseY4I/AAAAAAAAB_U/iLAz0-3I9cku8yYobuEk9ZUfiXQV48L0QCLcBGAs/s1600/Kaguya-Sama-Love-is-War-1.jpg"
+                alt="kaguya">
+            <p>Kaguya es hija de una importante y millonaria familia. Shirogane es hijo de una buena familia y
+               presidente del consejo estudiantil. Ambos son admirados por la academia Shuchiin y ambos están 
+               enamorados el uno del otro pero ninguno se rebaja a admitirlo ya que intentan que sea el otro
+               que se declare primero.
+            </p>
+            <select name="episodios" id="epi">
+                <!-- <OPCIÓN VALUE="">SELECCIONA...OPTION -->
+                    <option value="1">Ep.1 Invitame al cine</option>
+                    <option value="2">Ep.2 Detenme</option>
+                    <option value="3">Ep.3 Dame un poco</option>
+            </select>       
+        </div>
+
+        <div id="descripcion">
+            <h1>OOKAMI SHOUJO TO KURO OUJI</h1>
+            <img src="http://3.bp.blogspot.com/-GBjsIUi9Y4o/VlBftvsAC2I/AAAAAAAABoY/ja4ZO3HqcWo/s1600/maxresdefault.jpg"
+                alt="shoujo">
+            <p>A Erika le gusta presumir a sus amigas que está enamorada de su novio, lo cierto es que a sus
+               16 años no ha tenido novio.
+               Con tal de aparentar tener novio, un día le toma una foto a un chico que estaba en la calle. Pero
+               resulta que ese chico es Sata Kyouya quien también asiste a su misma escuela. Cuando tiene que explicarle
+               el porqué al chico, éste la entiende pero le propondrá un trato no tan agradable.
+            </p>
+            <select name="episodios" id="epi">
+                <!-- <OPCIÓN VALUE="">SELECCIONA...OPTION -->
+                    <option value="1">Ep.1 Atrapada en su propia mentira</option>
+                    <option value="2">Ep.2 Una acción apresurada</option>
+                    <option value="3">Ep.3 Un descenso presipitado</option>
+            </select>       
+        </div>
+
+        <div id="descripcion">
+            <h1>ORANGE</h1>
+            <img src="https://nerdmacia.cl/wp-content/uploads/2020/05/thumb-1920-836802.jpg"
+                alt="orange">
+            <p>Todo el mundo se arrepiente en la vida. ¿Y si pudieras tener la oportunidad de cambiar el pasado?
+               Cuando Naho Takamiya de 16 años recibe una carta misteriosa que dice ser de parte de su yo del futuro
+               con 26 años, su vida cambia por completo.  
+            </p>
+            <select name="episodios" id="epi">
+                <!-- <OPCIÓN VALUE="">SELECCIONA...OPTION -->
+                    <option value="1">Ep.1 Carta 01</option>
+                    <option value="2">Ep.2 Carta 02</option>
+                    <option value="3">Ep.3 Carta 03</option>
+            </select>       
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>

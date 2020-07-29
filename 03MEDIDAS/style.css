@@ -1,0 +1,226 @@
+.titulo{
+    /* COLOR DE FONDO */
+    background-color: fuchsia;
+    /* TIPO DE FUENTE */
+    font-family: serif;
+    /* COLOR DE FUENTE */
+    color: black;
+    /* TAMAÑO DE FUENTE */
+    font-size: 40px;
+    /* ALINEADO DEL TEXTO */
+    text-align: center;
+    /* ANCHO */
+    width: 50%;
+    /* MARGEN POR LOS 4 LADOS */
+    margin-left: 25%;
+    /* ESTILO, COLOR Y PIXELES DEL MARGEN */
+    border:10px double greenyellow;
+    /* MARGEN INTERNO */
+    padding: 25px;
+}
+
+/* MEDIDAS ABSOLUTOAS */
+/* LAS MEDIDAS DE LA PANTALLA SON ENTRE 1024 Y 1280  */
+/* PIXELES */
+.pixeles{
+    /* ANCHO */
+    width: 140px;
+    /* ALTO */
+    height: 140px;
+    /* ESTILO, COLOR Y PIXELES DEL MARGEN */
+    border: 2px solid blueviolet;
+    /* COLOR DE LA FUENTE */
+    color: chartreuse;
+    /* COLOR DE FONDO */
+    background-color: crimson;
+}
+/* PUNTOS */
+.puntos{
+    /* TAMAÑO DE FUENTE */
+    font-size: 15pt;
+    /* INTERLINEADO */
+    line-height: 7pt;
+    /* COLOR DE FUENTE */
+    color: darkmagenta;
+}
+/* PICAS */
+.picas{
+    /* TAMAÑO DE FUENTE */
+    font-size: 3pc;
+    /* COLOR DE FUENTE */
+    color: yellow;
+    /* ALINEAR TEXTO */
+    text-align: left;
+}
+/* PULGADAS */
+.pulgadas{
+    /* TAMAÑO DE FUENTE */
+    font-size: 0.5in;
+    /* ALINEAR TEXTO */
+    text-align: right;
+    /* COLOR DE FUENTE */
+    color: tomato;
+}
+/* CENTIMETROS */
+.centimetros{
+    /* ASINGNANDO EL COLOR DE LA FUENTE=LETRA */
+    color: turquoise;
+    /* ALINEAR TEXTO */
+    text-align: left;
+    /* ASIGNAR LA UNIDAD DE MEDIDA FONT-SIZE=TAMAÑO DE FUENTE */
+    /* LA UNIDAD DE MEDIDA SIEMPRE VA A LA DERECHA SEGUIDA DEL NÚMERO SIN ESPACIO 
+    Y LA UNIDAD DE MEDIDA PARA CENTIMETROS (cm) */
+    /* TAMAÑO DE FUENTE */
+    font-size: 1.5cm;
+}
+
+/* MEDIDAS RELATIVAS */
+/* PORCENTAJE */
+.porcentaje{
+    /* ANCHO */
+    width: 40%;
+    /* COLOR DE FONDO */
+    background-color: burlywood;
+    /* COLOR DE FUENTE */
+    color: coral;
+    /* NOTA: NO USAR % EN LA ALTURA */
+}
+/* VIEWPORT */
+.view{
+    /* ANCHO */
+    width: 95vw;
+    /* ALTURA */
+    height: 95vh;
+    /* ESTILO, COLOR Y PIXELES DEL MARGEN */
+    border: 5px double yellowgreen;
+}
+
+
+
+.titulo{
+    background-color: violet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: teal;
+    font-size: 60px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    border: 20px dotted yellow;
+    padding: 30px;
+}
+
+.picas{
+    background-color: turquoise;
+    font-family: monospace;
+    color: darkred;
+    font-size: 3pc;
+    text-align: justify;
+    /* EL ANCHO SE MANEJA EN PX, % O VIEWPORT */
+    width: 40pc;
+    margin-left: 20pc;
+    border: 10px double black;
+}
+
+#cancion{
+    font-family: monospace;
+    color: blueviolet;
+    font-size: 2pc;
+    text-align: justify;
+    width: 30pc;
+}
+
+.pulgadas{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 35in;
+    text-align: justify;
+    width: 40in;
+    margin-left: 20in;
+    border: 15px double mediumvioletred;
+}
+
+#mente{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 25in;
+    text-align: justify;
+    width: 30in;
+}
+
+.centimetros{
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+    font-size: 35cm;
+    text-align: justify;
+    width: 40cm;
+    margin-left: 20cm;
+    border: 20px double blue;
+}
+
+#color{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+    font-size: 25cm;
+    text-align: justify;
+    width: 12cm;
+}
+
+.medida{
+    background-color: royalblue;
+    font-family: monospace;
+    color: red;
+    font-size: 25px;
+    text-align: justify;
+    width: 35%;
+    margin-left: 20%;
+    border: 10px double yellow;
+}
+
+.porcentaje{
+    background-color: palegreen;
+    font-family: monospace;
+    color: purple;
+    font-size: 25%;
+    text-align: justify;
+    width: 35%;
+    margin-left: 20%;
+    border: 10px double yellow;
+}
+
+#chica{
+    font-family: monospace;
+    color: green;
+    font-size: 25%;
+    text-align: justify;
+    width: 12%;
+}
+
+.view{
+    background-color: lawngreen;
+    font-family: monospace;
+    color: darkblue;
+    text-align: justify;
+    width: 25vw;
+    height: 20vh;
+    border: 10px double orange;
+}
+
+#prendas{
+    font-family: monospace;
+    color: olive;
+    text-align: justify;
+    width: 32vw;
+    height: 22vh;
+    border: 10px double palegreen;
+}
+
+#postres{
+    font-family: monospace;
+    color: hotpink;
+    text-align: justify;
+    width: 21vw;
+    height: 13vh;
+    border: 10px double aqua;
+}

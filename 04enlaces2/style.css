@@ -1,0 +1,84 @@
+body{
+    background-color: lightgreen;
+}
+
+.en{
+    color: goldenrod;
+    font-size: 60px;
+    background-color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border: 12px double white;
+    padding: 15px;
+    height: 8vh;
+}
+
+.pra{
+    color: white;
+    font-size: 2cm;
+    background-color: firebrick;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 50%;
+    margin-left: 0.5%;
+    border: 22px double hotpink;
+    padding: 25px;
+    height: 9vh;
+}
+
+.centimetros{
+    color: black;
+    /* unidad cm */
+    font-size: 1cm;
+    background-color: chartreuse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+    border: 20px dotted purple;
+    padding: 30px;
+    height: 2vh;
+}
+
+.pixeles{
+    color: lawngreen;
+    font-size: 45px;
+    background-color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    border: 20px dotted yellow;
+    padding: 15px;
+    height: 6vh;
+}
+
+.porcentaje{
+    color: blue;
+    font-size: 38px;
+    background-color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    border: 15px double orangered;
+    padding: 20px;
+    height: 3vh;
+}
+
+.view{
+    color: yellow;
+    font-size: 40px;
+    background-color: purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 50vw;
+    margin-left: 20%;
+    border: 15px double cyan;
+    padding: 20px;
+    height: 5vh;
+}
+
+

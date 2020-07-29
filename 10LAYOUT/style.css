@@ -1,0 +1,74 @@
+body{
+    background-color: powderblue;
+    font-family: 'Grenze Gotisch', cursive;
+
+}
+
+.titulo{
+    width: 50%;
+    margin-left: 50%;
+    border-top-left-radius: 30px;
+    background-color: pink;
+    padding: 20px;
+    border-bottom: 10px dotted lawngreen;
+    letter-spacing: 10px;
+}
+
+/* HEADER ES EL ENCABEZADO EN EL QUE VA EL NOMBRE DE LA EMPRESA O LOGO DEL SERVICIO, MARCA, NOMBRE DEL PRODUCTO */
+.header{
+    border: 2px solid salmon;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+
+/* ID ÚNICO E IRREPETIBLE */
+#header{
+    border: 2px solid darkmagenta;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+
+/* NAVEGACIÓN */
+#nav{
+    border: 2px solid blue;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+
+#main{
+    border: 5px dotted black;
+    display: flex;
+}
+
+/* INFORMACIÓN RESPECTO AL MAIN O ÁREA PRINCIPAL */
+#aside{
+    border: 2px solid lawngreen;
+    width: 40vw;
+    height: 60vh;
+    text-align: center;
+    float: right;
+}
+
+#section{
+    border: 2px solid hotpink;
+    width: 60vw;
+    height: 30vh;
+    text-align: center;
+}
+
+#article{
+    border: 2px solid yellow;
+    width: 60vw;
+    height: 30vh;
+    text-align: center;
+}
+
+#footer{
+    border: 2px solid red;
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+}

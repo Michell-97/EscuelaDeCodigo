@@ -1,0 +1,96 @@
+body{
+    background-image: url(https://lh3.ggpht.com/-hgn8MTPeO2M/UoYFkjoecuI/AAAAAAAAE7M/IjeREyIPi98/fondo-background-letras-caligrafia-japonesa-china-oriental%25255B6%25255D.jpg?imgmax=800);
+    font-family:'Bangers', cursive;
+}
+/* 
+.titulo{
+    font-family: 'Bangers', cursive;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 8px;
+    color: lawngreen;
+    background-color: black;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15%;
+    padding: 10px;
+} */
+
+/* video{
+    opacity: 1;
+} */
+
+.contenedor{
+    background-color: chartreuse;
+    /* border: 3px double purple; */
+    border-radius: 500px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    
+}
+
+.logo{
+    margin: 2px;
+    /* border: 1px dashed black; */
+    padding: 2px;
+    align-self: center; 
+    padding-left: 150px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 20px; 
+}
+.titulo{
+    width: 80%;
+    margin: 2px;
+    /* border: 1px dashed black; */
+    padding: 2px;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 6px;
+    align-self: center;
+    padding-right: 150px;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anime{
+    width: 30%;
+    height: auto;
+    background-color: rgb(241, 237, 2);
+    text-align: center;
+    border: 10px double white;
+    border-radius: 30px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+h1{
+    text-shadow: 2px 2px rgb(230, 41, 230);
+}
+
+a:hover{
+    color: red;
+    font-size: 25px;
+}
+
+a{
+    color: blue;
+}
+
+

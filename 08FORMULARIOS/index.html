@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORMULARIOS</title>
+</head>
+
+<body>
+    <h1 class="titulo">FORMULARIOS</h1>
+
+    <div class="box">
+        <div class="datos">
+            <form action="">
+                <!-- PARA NOMBRAR AL IMPUT -->
+                <label for="">NOMBRE:</label>
+                <!-- INPUT=ENTRADA, ES UNA ETIQUETA SIMPLE -->
+                <!-- PLACEHOLDER ES UN MARCADOR NOS INDICA Y NOS DA INFORMACIÓN SOBRE LO REQUERIDO -->
+                <!-- REQUIRED SIRVE PARA EVALUAR EL CAMPO O LA ENTRADA -->
+                <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre" required class="derecha">
+                <br>
+                <label for="edad">EDAD:</label>
+                <input type="number" name="edad" id="edad" required placeholder="ingresa tu edad" min="1" max="150"
+                    class="derecha">
+                <br>
+                <!-- MINLENGTH -->
+                <label for="contra">CONTRASEÑA</label>
+                <input type="password" name="contra" id="contra" required placeholder="aquí va tu contraseña"
+                    minlength="10" class="derecha">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="ingresa tu mail" class="derecha">
+                <br>
+                <!-- PARTE 2 -->
+
+                <!-- <label for="genero">GÉNERO:</label>
+                <input type="radio" name="genero" id="f">FEMENINO
+                <input type="radio" name="genero" id="m">MASCULINO -->
+
+                <!-- RADIO BUTTONS SIREVEN PARA ELEGIR 1 OPCIÓN DE UNA LISTA -->
+                <!-- PÁRRAFO -->
+                <p>GÉNERO</p>
+                <input type="radio" name="genero" id="f" value="femenino" checked disabled>
+                <label for="femenino">FEMENINO</label>
+                <input type="radio" name="genero" id="m" value="masculino">
+                <label for="masculino">MASCULINO</label>
+                <input type="radio" name="genero" id="o" value="otro">
+                <label for="otro">OTRO</label>
+
+                <!-- CHECKBOX -->
+                <!-- SE PUEDE ELEGIR MÁS DE UNA OPCIÓN -->
+                <p>ME GUSTA</p>
+                <input type="checkbox" name="paloma" id="gusto1">
+                <label for="agua">AGUA</label>
+                <br>
+                <input type="checkbox" name="paloma" id="gusto2">
+                <label for="cafe">CAFÉ</label>
+                <br>
+                <input type="checkbox" name="paloma" id="gusto3">
+                <label for="te">TÉ</label>
+                <br>
+                <input type="checkbox" name="paloma" id="gusto4">
+                <label for="chocolate">CHOCOLATE</label>
+
+
+                <!-- LISTAS DESPLEGABLES -->
+                <p>SELECCIONA UN LENGAJE QUE DOMINES</p>
+                <select name="lenguajes" id="lang">
+                    <!-- <OPCIÓN VALUE="">SELECCIONA...OPTION -->
+                    <option value="1">HTML</option>
+                    <option value="2" selected>CSS</option>
+                    <option value="3">JAVASCRIPT</option>
+                </select>
+
+                <p>INGRESA TU EDAD</p>
+                <select name="edad" id="edad">
+                    <option value="1">10</option>
+                    <option value="2">11</option>
+                    <option value="3">12</option>
+                    <option value="4">13</option>
+                    <option value="5">14</option>
+                    <option value="6">15</option>
+                </select>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

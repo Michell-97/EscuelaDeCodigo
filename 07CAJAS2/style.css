@@ -1,0 +1,83 @@
+body{
+    background-color: lightgreen;
+}
+
+.titulo{
+    background-color: lawngreen;
+    color: black;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    padding: 10px;
+    border: 15px dashed rgb(230, 55, 230);
+    border-radius: 5px;
+    /* ESPACIO ENTRE LETRAS */
+    letter-spacing: 10px;
+}
+
+.ref{
+    border: 1px solid beige;
+}
+
+/* FLOAT */
+
+.caja{
+    border: 2px solid cyan;
+    text-align: center;
+    width: 30vw;
+    height: 10vh;
+    /* FLOAT A LA IZQUIERDA DEL ÚLTIMO ELEMENTO */
+    float: left;
+    margin-left: 2vw;
+    margin-bottom: 10px;
+}
+
+/* FLEXBOX */
+/* DECLARAR LA PROPIEDAD DISPLAY CON EL VALOR FLEX */
+
+.principal{
+    /* BORRAR LA PROPIEDAD FLOAT */
+    clear: both;
+    border: 2px solid magenta;
+    display: flex;
+    margin-top: 10px;
+    /* DISTRIBUCIÓN Y POSICIONAMIENTO DE LOS ELEMENTOS INTERNOS */
+    /* SIRVE PARA DISTRIBUIR CAJAS */
+    justify-content: space-evenly;
+}
+
+.caja-flex{
+    margin: 2px;
+    border: 1px dashed yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    clear: both;
+    border: 3px double purple;
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-around;
+}
+
+.c2{
+    margin: 3px;
+    border: 2px dotted red;
+    text-align: end;
+    padding: 10px;
+}
+
+.cont1{
+    border: 3px double orangered;
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.c3{
+    margin: 3px;
+    border: 2px dotted blue;
+    text-align: end;
+    padding: 10px;  
+}
